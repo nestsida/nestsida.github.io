@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <div>
+    <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+      </ul>
+    </div>
 <style>
     body {
         background-image: url("images/beach image2.png");
@@ -14,10 +21,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio Website</title>
 </head>
 <body>
+   
     <section>
     <h1 class="h1">Sarah Sida </h1> 
     <img src="images/bike.PNG"alt="Coding image" width="460" height="460">
@@ -26,8 +35,13 @@
     <section class="red-border">
         <h1 class="h1">Contact details:</h1>
     <ul>
+        <select class="red-border" name="Contact" id="Contact">
+            <option value="Phone">Phone</option>
+            <option value="Email">Email</option>
+        </select>                     
         <li><a href="tel:202-569-4735">Tel:202-569-4735</a>
         </li><a href="mailto:nestsida@gmail.com">mailto:nestsida@gmail.com</a>
+
     </section>
     </section>
     <section>
@@ -43,7 +57,7 @@
              <li>These skills were developed by building multiple C# and SQL projects.</li>
              <li>C# and SQL Projects were tracked using Git and GitHub for source control.</li>
         </p>
-        <h1 class="h1"</h1h1>
+        <h1 class="h1">
             Assistant Director of Nursing - Sacred Heart Mission (Australia)
             July 2020 - May 2021
         </h1>
@@ -59,7 +73,7 @@
             Deputy Residential Services Manager for a non-profit organization in the 154 bed facility.
             
         </p>
-        <h1 >
+        <h1 class="h1" >
             Clinical Care Coordinator - Sacred Heart Mission(Australia)
             June 2013 - November 2019
         </h1>
@@ -81,5 +95,29 @@
     
 
 </body>
+<h1 class ="h1">Submit an inquiry</h1>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="Email">Email</label>
+  <input type="Email" id="Email" pattern=".+@globex\.com" size="30" required>
+  <label for="Phone number" id="Phone number:">Phone:</label>
+  <input type="Phone number" id="Phone number" pattern="1537832545"><br>
+  <label for="Description" id="Description">Description of your inquiry:</label>
+  <input type="Description" id="Description" name="Description"><br>
+  <input button type="submit" value="Submit">
+
+</form>
+
+<p>Click the "Submit" button and I will contact you as soon as possible.</p>
+
 </body>
+<section>Complimentary Video</section>
+<video width="320" height="240" controls>
+    <source src="video1.mp4" type="video1/mp4">
+    Your browser does not support the video tag.
+  </video>
 </html>
