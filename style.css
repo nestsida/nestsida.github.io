@@ -17,21 +17,32 @@ body, input, textarea, select
         border-color: rgb(1, 20, 20);
     }
     p{
-        font-family: 'Source Sans Pro', Arial, sans-serif;
-        font-size: 13pt;
-        line-height: 1.5em;
-        color:black;
-        font-weight: 300;
-        text-align: left; 
-    }
-    .h1{
-        font-family:'Source Sans Pro', Arial, sans-serif ;
+        font-family: 'Courier New', Courier, monospace;
         font-size: 14pt;
         line-height: 1.5em;
         color:black;
-        font-weight:bold ;
+        font-weight:100;
+       
+    }
+        
+    
+    .h1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 16pt;
+        line-height: 1.5em;
+        color:black;
         text-align: left; 
-        font-style: bold ;
+        font-weight:700;
+        font-style:italic;
+    }
+    .h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15pt;
+        line-height: normal;
+        color: darkred;
+        text-align: center;
+        font-weight: bold;
+        font-feature-settings: "zero";
     }
     select{
         font-family:Georgia, 'Times New Roman', Times, serif;
@@ -53,4 +64,128 @@ body, input, textarea, select
         
         font-weight: bolder;
       }
-      
+     
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.prev,
+.next {
+  cursor:grabbing;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color:blue;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align:center;
+  background-color:azure;
+  padding: 2px 16px;
+  color: white;
+  -webkit-text-size-adjust: auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    align-items: flex-start;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a 
+    {
+      float: none;
+      display: block;
+    }
+}

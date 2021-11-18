@@ -1,123 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <div>
-    <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
-      </ul>
-    </div>
-<style>
-    body {
-        background-image: url("images/beach image2.png");
-        background-color: rgba(255, 127, 80, 0.123);
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-</style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio Website</title>
+    <style>
+        body {
+            background-image: url("images/background.jpeg");
+            background-color: rgba(255, 127, 80, 0.123);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
 </head>
 <body>
-   
-    <section>
-    <h1 class="h1">Sarah Sida </h1> 
-    <img src="images/bike.PNG"alt="Coding image" width="460" height="460">
-    <p class="p">A recent graduate of TrueCoders bootcamp in Full-Stack Software engineering. Currently looking for an entry-level quality analyst role to combine my scientific knowledge with my passion for data and outcomes to help improve company relationships with clients and customers.</p>
-    
-    <section class="red-border">
-        <h1 class="h1">Contact details:</h1>
-    <ul>
-        <select class="red-border" name="Contact" id="Contact">
-            <option value="Phone">Phone</option>
-            <option value="Email">Email</option>
-        </select>                     
-        <li><a href="tel:202-569-4735">Tel:202-569-4735</a>
-        </li><a href="mailto:nestsida@gmail.com">mailto:nestsida@gmail.com</a>
-
-    </section>
-    </section>
-    <section>
-        <h1 class="h1">
-            Education:
-            Software Engineering Bootcamp (September 2021 - November 2021)
-        </h1>
-        <p>
-             The TrueCoders training program is a project and lecture-based training program that aims to fill the growing need for data science and software development jobs in Alabama. 
-             Projects include multiple personal and group-oriented tasks that involve multiple programming languages over the course of the program. 
-             <li>Over 500 hours of intensive, project-based training in programming languages and other technical skills, 
-                 such as:C#, .NET Core, SQL, Git, ASP.NET MVC, HTML, CSS, and JavaScript.</li>
-             <li>These skills were developed by building multiple C# and SQL projects.</li>
-             <li>C# and SQL Projects were tracked using Git and GitHub for source control.</li>
-        </p>
-        <h1 class="h1">
-            Assistant Director of Nursing - Sacred Heart Mission (Australia)
-            July 2020 - May 2021
-        </h1>
-        <p>
-            Direct day-to-day administrative and operational functions for 97 bed psychogeriatric facility.
-            
-        </p>
-        <h1 class="h1">
-            Deputy Residential Services Manager - Benetas(Australia)
-            February 2019 - June 2020
-        </h1>
-        <p>
-            Deputy Residential Services Manager for a non-profit organization in the 154 bed facility.
-            
-        </p>
-        <h1 class="h1" >
-            Clinical Care Coordinator - Sacred Heart Mission(Australia)
-            June 2013 - November 2019
-        </h1>
-        <p >
-            Clinical Care Coordinator/2IC for a non for profit organization in the 73 bed facility that mainly caters for disadvantaged residents who have experienced homelessness and mental illness.
-            
-        </p>
-    </section>
-    <section>
-       
-        <h1 class="h1">
-            Education History:
-        </h1>
-        <p>
-            <li>Post Graduate Certificate in Management (2016)</li>
-            <li> Bachelor of Nursing(2010)</li>
-        </p>
-    </section>
-    
-
+        <h2 class="h1">Welcome to my Portfolio</h2>
+        <div class="navbar">
+          <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+          <a href="MyStory.html"><i class="fa fa-fw fa-user"></i> Professional Background</a> 
+          <a href="Contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+          
+        </div>
 </body>
-<h1 class ="h1">Submit an inquiry</h1>
-
-<form action="/action_page.php">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br>
-  <label for="Email">Email</label>
-  <input type="Email" id="Email" pattern=".+@globex\.com" size="30" required>
-  <label for="Phone number" id="Phone number:">Phone:</label>
-  <input type="Phone number" id="Phone number" pattern="1537832545"><br>
-  <label for="Description" id="Description">Description of your inquiry:</label>
-  <input type="Description" id="Description" name="Description"><br>
-  <input button type="submit" value="Submit">
-
-</form>
-
-<p>Click the "Submit" button and I will contact you as soon as possible.</p>
-
-</body>
-<section>Complimentary Video</section>
-<video width="320" height="240" controls>
-    <source src="video1.mp4" type="video1/mp4">
-    Your browser does not support the video tag.
-  </video>
-</html>
+<h2 class="h2"  >A little about me</h2>
+<div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="images/Laya.JPG" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="images/Jack.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="images/Williamstown.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="images/Laya2.JPG" style="width:100%">
+      </div>
+    <div class="mySlides">
+      <div class="numbertext">4/ 6</div>
+      <img src="images/ACN.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="images/Great Ocean.JPG" style="width:100%">
+    </div>
+      
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="images/Laya.JPG" style="width:100%" onclick="currentSlide(1)" alt="The Apple of my eyes">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/Jack.jpg" style="width:100%" onclick="currentSlide(2)" alt="Our boy Jack">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/Williamstown.JPG" style="width:100%" onclick="currentSlide(3)" alt="Where we love to go">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/Laya2.JPG" style="width:100%" onclick="currentSlide(5)" alt="Where she loves to go">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/ACN.jpeg" style="width:100%" onclick="currentSlide(4)" alt="What I did in 2020">
+    </div>
+      <div class="column">
+        <img class="demo cursor" src="images/Great Ocean.JPG" style="width:100%" onclick="currentSlide(6)" alt="Our favorite place to visit">
+      </div>    
+      
+    </div>
+  </div>
+  
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+      
+  </body>
+  </html>
+  
+  
